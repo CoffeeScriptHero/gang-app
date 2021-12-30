@@ -1,0 +1,51 @@
+/*container, section*/
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*header*/
+.header {
+  background-color: #80ad45;
+}
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 15px 0;
+  align-items: center;
+}
+.gangName {
+  font-family: "Moo Lah Lah", cursive;
+  font-size: 4em;
+}
+.gangNamePosition:hover {
+  cursor: pointer;
+  transform: rotate(5deg);
+}
+.socialLinks {
+  display: flex;
+  align-items: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 2em;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+}
+.instLink {
+  text-decoration: none;
+  color: black;
+}
+.soundCloud {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 15px;
+}
+.soundLink {
+  text-decoration: none;
+  color: black;
+}
